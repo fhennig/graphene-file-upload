@@ -18,7 +18,7 @@ long_description = open('README.rst').read()
 flask_requires = [
     'Flask>=1.0.2',
     'graphene>=2.1.2',
-    'Flask-Graphql>=2.0.0',
+    'graphql-server[flask]>=3.0.0b1'
 ]
 
 django_requires = [
